@@ -1,0 +1,1060 @@
+html {
+
+    scroll-behavior: smooth;
+    
+}
+
+body {
+
+    font-family: 'Manrope', Courier, monospace;
+    letter-spacing: -0.03em;
+    line-height: 1;
+    box-sizing: border-box;
+    color: #121212;
+
+    .HeadContain {
+
+        width: 1348px;
+        height: auto;
+        top: 32px;
+        left: 124px;
+        color: #101010;
+        display: block;
+
+        margin-left: 125px;
+        margin-right: 1150px;
+
+        .NaviContain {
+
+            width: 1175px;
+            height: 25px;
+            color: #101010;
+            display: block;
+
+            margin-left: 125px;
+            margin-right: 125px;
+
+            .NaviBar {
+
+                width: 1175px;
+                height: 25px;
+                color: #101010;
+                display: flex;
+                justify-content: space-between;
+                
+                margin-top: 34px;
+                margin-left: 125px;
+                margin-right: 125px;
+
+                .LogoBar {
+
+                    width: 125px;
+                    height: 25px;
+                    color: #101010;
+
+                    .Logotip {
+
+                        width: 128px;
+                        height: 23px;
+                        color: #101010;
+
+                    }
+
+                }
+
+                .MenuBar {
+
+                    height: 25px;
+                    color: #121212;
+
+                    .MenuList {
+
+                        width: 498px;
+                        height: 18px;
+                        color: #121212;
+                        display: flex;
+                        text-transform: uppercase;
+                        transition: all 0.5s ease;
+
+                        .MenuListItem1 {
+
+                            height: 18px;
+                            width: 51px;
+                            color: #121212;
+                            display: list-item;
+                            font-size: 18px;
+                            transition: all 0.5s ease;
+                            text-transform: uppercase;
+                            
+                            border-bottom: #121212;
+                            
+                            margin-right: 59px;
+
+                            .MenuListItemLink1:hover {
+
+                                transition: all 0.5s ease;
+                                opacity: 0.5;
+                                margin-right: auto;
+                               
+                            }
+
+                        }
+
+                        .MenuListItem2 {
+                            
+                            height: 18px;
+                            width: 79px;
+                            color: #121212;
+                            display: list-item;
+                            font-size: 18px;
+                            transition: all 0.5s ease;
+                            text-transform: uppercase;
+                            
+                            margin-right: 60px;
+
+                            .MenuListItemLink2:hover {
+
+                                transition: all 0.5s ease;
+                                opacity: 0.5;
+                                margin-right: auto;
+
+                            }
+
+                        }
+
+                        .MenuListItem3 {
+                            
+                            height: 18px;
+                            width: 66px;
+                            color: #121212;
+                            display: list-item;
+                            font-size: 18px;
+                            transition: all 0.5s ease;
+                            text-transform: uppercase;
+                            
+                            margin-right: 60px;
+
+                            .MenuListItemLink3:hover {
+
+                                transition: all 0.5s ease;
+                                opacity: 0.5;
+                                margin-right: auto;
+
+                            }
+
+                        }
+
+                        .MenuListItem4 {
+                            
+                            height: 18px;
+                            width: 89px;
+                            color: #121212;
+                            display: list-item;
+                            font-size: 18px;
+                            position: relative;
+                            transition: all 0.5s ease;
+                            text-transform: uppercase;
+
+                            .MenuListItemLink4:hover {
+
+                                transition: all 0.5s ease;
+                                opacity: 0.5;
+                                margin-right: auto;
+                                
+                            }
+
+                        }
+
+                    }
+
+                }
+
+            }
+
+        }
+
+        .MainPhotoContainer {
+
+            width: 1150px;
+            height: 650px;
+            color: #101010;
+            display: block;
+
+            margin-top: 70px;
+            margin-left: 124px;
+            margin-right: 124px;
+            
+            .MainPhotoContain {
+
+                width: 1150px;
+                height: 650px;
+                color: #101010;
+                display: block;
+
+                margin-top: 70px;
+                margin-left: 125px;
+                margin-right: 125px;
+                
+                .MainText {
+
+                    .TextPhotoContain {
+
+                        width: 956px;
+                        height: 120px;
+                        top: 127px;
+                        left: 125px;
+                        color: #121212;
+                        display: inline-block;
+
+                        font-size: 60px;
+                        font-weight: 400;
+                        line-height: 60px;
+                        letter-spacing: -0.03em;
+
+                        margin-bottom: 30px;
+
+                    }
+
+                }
+
+                .MainPhoto {
+
+                    height: 650px;
+                    width: 1150px;
+                    
+                    background-image: url('/Metrika/resources/Interior.png');
+                    background-repeat: no-repeat;
+                    background-size: 100%;
+
+                    .TextUnderPhoto {
+
+                        width: 430px;
+                        height: 81px;
+                        top: 566px;
+                        left: 165px;
+                        color: #FFFFFF;
+
+                        font-size: 20px;
+                        font-weight: 400;
+                        line-height: 27.32px;
+                        letter-spacing: -0.03em;
+                        text-align: left;
+
+                        position: relative;
+                        left: 40px;
+                        top: 379px;
+                        bottom: 40px;
+                        right: 680px;
+
+                    }
+
+                }
+
+            }
+
+        }
+
+    }
+
+    .MainContain {
+
+        width: 1348px;
+        height: 745px;
+        left: 125px;
+        color: #101010;
+        display: block;
+
+        margin-top: 150px;
+        margin-left: 125px;
+        margin-right: 99px;
+
+        .AboutContain {
+
+            width: 1150px;
+            height: 25px;
+            color: #101010;
+            display: block;
+
+            margin-left: 125px;
+
+            .AboutContent {
+
+                width: 51px;
+                height: 25px;
+                top: 928px;
+                left: 125px;
+                color: #121212;
+
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 24.59px;
+                letter-spacing: -0.03em;
+                text-align: left;
+
+                margin-left: 125px;
+
+            }
+
+        }
+
+        .TextContain {
+
+            margin-top: 30px;
+            margin-left: 125px;
+
+            .TextContent {
+
+                width: 1048px;
+                height: 366px;
+                top: 983px;
+                left: 128px;
+                color: #121212;
+
+                font-size: 45px;
+                font-weight: 400;
+                line-height: 61.47px;
+                letter-spacing: -0.03em;
+                text-align: left;
+
+                margin-left: 125px;
+
+            }
+
+        }
+
+        .ButtonContain {
+
+            width: 255px;
+            height: 67px;
+            top: 1379px;
+            left: 125px;
+            padding: 20px 40px 20px 40px;
+            gap: 10px;
+            display: inline-block;
+            border-radius: 5px;
+            color: #FFFFFF;
+            background-color: #AD1818;
+
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 27.32px;
+            letter-spacing: -0.03em;
+            text-align: left;
+
+            border: 1px;
+
+            margin-top: 30px;
+            margin-left: 254px;
+            margin-right: 796px;
+
+            cursor: pointer;
+
+        }
+
+    }
+
+    .MiddleContain {
+
+        width: 1150px;
+        height: 2122px;
+        top: 1596px;
+        left: 150px;
+        color: #101010;
+        display: block;
+
+        margin-left: 150px;
+
+        .ProjectsContent {
+
+            width: 79px;
+            height: 25px;
+            top: 1596px;
+            left: 125px;
+            color: #121212;
+            display: block;
+
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 24.59px;
+            letter-spacing: -0.03em;
+            text-align: left;
+
+            margin-left: 215px;
+
+        }
+
+        .Contain1 {
+
+            width: 1150px;
+            height: 548px;
+            top: 1651px;
+            left: 125px;
+
+            margin-left: 215px;
+
+            .Interior1 {
+
+                margin-top: 30px;
+                margin-bottom: 15px;
+
+            }
+            
+            h3 {
+
+                width: 501px;
+                height: 41px;
+                top: 2116px;
+                left: 125px;
+                color: #121212;
+
+                font-size: 30px;
+                font-weight: 400;
+                line-height: 40.98px;
+                letter-spacing: -0.03em;
+                text-align: left;
+
+            }
+
+            p {
+
+                width: 127px;
+                height: 27px;
+                top: 2172px;
+                left: 127px;
+                color: #AD1818;
+
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 27.32px;
+                letter-spacing: -0.03em;
+                text-align: left;
+
+                margin-top: 15px;
+
+            }
+
+        }
+
+        .Contain2 {
+
+            width: 1150px;
+            height: 548px;
+            top: 1651px;
+            left: 125px;
+
+            margin-top: 90px;
+            margin-left: 215px;
+
+            .Interior2 {
+
+                margin-top: 30px;
+                margin-bottom: 15px;
+                
+            }
+            
+            h3 {
+
+                width: 542px;
+                height: 41px;
+                top: 3392px;
+                left: 125px;
+                color: #121212;
+
+                font-size: 30px;
+                font-weight: 400;
+                line-height: 40.98px;
+                letter-spacing: -0.03em;
+                text-align: left;
+
+            }
+
+            p {
+
+                width: 127px;
+                height: 27px;
+                top: 2172px;
+                left: 127px;
+                color: #AD1818;
+
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 27.32px;
+                letter-spacing: -0.03em;
+                text-align: left;
+
+                margin-top: 15px;
+
+            }
+
+        }
+
+        .Contain3 {
+
+            width: 1150px;
+            height: 650px;
+            top: 2927px;
+            left: 125px;
+
+            margin-top: 90px;
+            margin-left: 215px;
+
+            .Interior3 {
+
+                margin-top: 30px;
+                margin-bottom: 15px;
+                
+            }
+            
+            h3 {
+
+                width: 542px;
+                height: 41px;
+                top: 3392px;
+                left: 125px;
+
+                color: #121212;
+
+                font-size: 30px;
+                font-weight: 400;
+                line-height: 40.98px;
+                letter-spacing: -0.03em;
+                text-align: left;
+
+            }
+
+            p {
+
+                width: 127px;
+                height: 27px;
+                top: 2172px;
+                left: 127px;
+                color: #AD1818;
+
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 27.32px;
+                letter-spacing: -0.03em;
+                text-align: left;
+
+                margin-top: 15px;
+
+            }
+
+        }
+
+        .ButtonLook {
+
+            width: auto;
+            margin-top: 90px;
+
+            border-radius: 5px;
+            border: 1px solid #AD1818;
+            box-sizing: border-box;
+            cursor: pointer;
+
+            margin-left: 205px;
+            
+            h3 {
+
+                width: 1150px;
+                height: 153px;
+                top: 3621px;
+                left: 125px;
+                color: #AD1818;
+                background-color: #FFFFFF;
+                display: block;
+
+                padding-top: 56px;
+                padding-left: 0px;
+                padding-right: 0px;
+
+                font-size: 30px;
+                font-weight: 400;
+                line-height: 40.98px;
+                letter-spacing: -0.03em;
+                text-align: center;
+                text-decoration: none;
+
+                transition: all 0.5s ease;
+                
+            }
+
+            h3:hover {
+
+                color: #FFFFFF;
+                background-color: #AD1818;
+                
+            }
+
+        }
+
+    }
+    
+    .ServicesContain {
+
+        width: 100%;
+        height: 1844px;
+        top: 3868px;
+        background-color: #121212;
+        background-size: cover;
+        display: block;
+
+        padding-top: 150px;
+        padding-bottom: 150px;
+
+        margin-top: 150px;
+        margin-bottom: 150px; 
+
+        .Service {
+
+            width: 66px;
+            height: 25px;
+            top: 151px;
+            left: 127px;
+            color: #FFFFFF;
+            
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 24.59px;
+            letter-spacing: -0.03em;
+            text-align: left;
+
+            padding-left: 215px;
+
+            margin-left: 150px;
+
+        }
+
+        .Group1 {
+
+            width: 1150px;
+            height: 326px;
+            top: 210px;
+            left: 125px;
+
+            padding-left: 215px;
+
+            margin-top: 34px;
+            margin-left: 150px;
+            margin-right: 125px;
+
+            .Usluga1 {
+
+                width: 541px;
+                height: 41px;
+                top: 495px;
+                left: 128px;
+                color: #FFFFFF;
+
+                font-size: 30px;
+                font-weight: 400;
+                line-height: 40.98px;
+                letter-spacing: -0.03em;
+                text-align: left;
+
+                margin-top: 15px;
+                margin-right: 606px;
+
+            }
+
+        }
+
+        .Group2 {
+
+            width: 1150px;
+            height: 326px;
+            top: 596px;
+            left: 126px;
+
+            padding-left: 215px;
+
+            margin-top: 60px;
+            margin-left: 150px;
+            margin-right: 125px;
+
+            .Usluga2 {
+
+                width: 405px;
+                height: 41px;
+                top: 881px;
+                left: 129px;
+                color: #FFFFFF;
+
+                font-size: 30px;
+                font-weight: 400;
+                line-height: 40.98px;
+                letter-spacing: -0.03em;
+                text-align: left;
+
+                margin-top: 15px;
+                margin-right: 742px;
+
+            }
+
+        }
+
+        .Group3 {
+
+            width: 1150px;
+            height: 326px;
+            top: 982px;
+            left: 127px;
+
+            padding-left: 215px;
+
+            margin-top: 60px;
+            margin-left: 150px;
+            margin-right: 125px;
+
+            .Usluga3 {
+
+                width: 536px;
+                height: 41px;
+                top: 1267px;
+                left: 130px;
+                color: #FFFFFF;
+
+                font-size: 30px;
+                font-weight: 400;
+                line-height: 40.98px;
+                letter-spacing: -0.03em;
+                text-align: left;
+
+                margin-top: 15px;
+                margin-right: 611px;
+
+            }
+
+        }
+
+        .Group4 {
+
+            width: 1150px;
+            height: 326px;
+            top: 1368px;
+            left: 127px;
+
+            padding-left: 215px;
+            
+            margin-top: 60px;
+            margin-left: 150px;
+            margin-right: 125px;
+
+            .Usluga4 {
+
+                width: 661px;
+                height: 41px;
+                top: 1653px;
+                left: 130px;
+                color: #FFFFFF;
+
+                font-size: 30px;
+                font-weight: 400;
+                line-height: 40.98px;
+                letter-spacing: -0.03em;
+                text-align: left;
+
+                margin-top: 15px;
+                margin-right: 486px;
+                margin-bottom: 150px;
+
+            }
+
+        }
+
+        .MainProjectPhoto {
+
+            width: auto;
+            height: 717px;
+            top: 5712px;
+
+            margin-top: 150px;
+            margin-bottom: 782px;
+
+            background-image: url(/Metrika/resources/ProjectGK.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            .MainPhoto {
+
+                height: 82px;
+                top: 6287px;
+                left: 125px;
+                color: #FFFFFF;
+
+                font-size: 30px;
+                font-weight: 400;
+                line-height: 40.98px;
+                letter-spacing: -0.03em;
+                text-align: left;
+
+                padding-left: 125px;
+                padding-top: 575px;
+                padding-bottom: 60px;
+                padding-right: 832px;
+
+            }
+
+        }
+
+    }
+
+    .EndContainer {
+
+        width: 100%;
+        text-decoration: none;
+        margin-top: 867px;
+        margin-left: 150px;
+
+        .Phone {
+
+            top: 6579px;
+            left: 150px;
+            padding: 1px 6px 1px 5px;
+
+            margin-left: 215px;
+
+        }
+
+        .Contact {
+
+            width: 473px;
+            height: 217px;
+            top: 6615px;
+            left: 124px;
+
+            text-decoration: none;
+
+            margin-left: 215px;
+
+            .Contacts {
+
+                width: 90px;
+                height: 25px;
+                top: 6615px;
+                left: 124px;
+                color: #121212;
+
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 24.59px;
+                letter-spacing: -0.03em;
+                text-align: left;
+
+                margin-top: 12px;
+                margin-left: 4px;
+
+            }
+
+            .NumberPhone {
+
+                width: 472px;
+                height: 60px;
+                top: 6672px;
+                left: 125px;
+                color: #121212;
+                text-decoration: none;
+
+                font-size: 60px;
+                font-weight: 400;
+                line-height: 60px;
+                letter-spacing: -0.03em;
+                text-align: left;
+
+                margin-top: 32px;
+                margin-left: 5px;
+
+            }
+
+            .Mail {
+
+                width: 412px;
+                height: 60px;
+                top: 6762px;
+                left: 125px;
+                color: #121212;
+                transition: all 3ms ease-in;
+
+                font-size: 60px;
+                font-weight: 400;
+                line-height: 60px;
+                letter-spacing: -0.03em;
+                text-align: left;
+
+                margin-top: 30px;
+                margin-left: 5px;
+
+            }
+
+        }
+
+    }
+
+    .EndSite {
+
+        height: 229px;
+        top: 6982px;
+
+        margin-top: 150px;
+
+        background-color: #121212;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        .ParametrTags {
+
+            margin-left: 750px;
+            margin-top: 60px;
+
+            padding-top: 60px;
+
+            transition: all 0.5s ease;
+            text-transform: uppercase;
+            border-bottom: #121212;
+
+            .Tag1 {
+
+                width: 51px;
+                height: 25px;
+                top: 7042px;
+                left: 470px;
+                gap: 0px;
+                opacity: 0.5px;
+                color: #FFFFFF;
+                display: inline-block;
+
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 24.59px;
+                letter-spacing: -0.03em;
+                text-align: left;
+
+                transition: all 0.5s ease;
+                /* opacity: 0.5; */
+
+            }
+
+            .Tag1:hover {
+
+                transition: all 0.5s ease;
+                opacity: 0.5;
+               
+            }
+
+            .Tag2 {
+
+                width: 79px;
+                height: 25px;
+                top: 7042px;
+                left: 574px;
+                gap: 0px;
+                opacity: 0px;
+                color: #FFFFFF;
+                display: inline-block;
+
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 24.59px;
+                letter-spacing: -0.03em;
+                text-align: left;
+
+                margin-left: 53px;
+                
+                transition: all 0.5s ease;
+                /* opacity: 0.5; */
+
+            }
+
+            .Tag2:hover {
+
+                transition: all 0.5s ease;
+                opacity: 0.5;
+               
+            }
+
+            .Tag3 {
+
+                width: 66px;
+                height: 25px;
+                top: 7042px;
+                left: 709px;
+                gap: 0px;
+                opacity: 0px;
+                color: #FFFFFF;
+                display: inline-block;
+
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 24.59px;
+                letter-spacing: -0.03em;
+                text-align: left;
+
+                margin-left: 56px;
+                transition: all 0.5s ease;
+                /* opacity: 0.5; */
+
+            }
+
+            .Tag3:hover {
+
+                transition: all 0.5s ease;
+                opacity: 0.5;
+               
+            }
+
+            .Tag4 {
+
+                width: 90px;
+                height: 25px;
+                top: 7042px;
+                left: 830px;
+                gap: 0px;
+                opacity: 0px;
+                color: #FFFFFF;
+                display: inline-block;
+
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 24.59px;
+                letter-spacing: -0.03em;
+                text-align: left;
+
+                margin-left: 55px;
+                transition: all 0.5s ease;
+                /* opacity: 0.5; */
+
+            }
+
+            .Tag4:hover {
+
+                transition: all 0.5s ease;
+                opacity: 0.5;
+               
+            }
+
+        }
+
+        .ParametrPar {
+
+            width: 389px;
+            height: 27px;
+            top: 7154px;
+            left: 509px;
+            right: 502px;
+            opacity: 0.5px;
+            color: #FFFFFF;
+
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 27.32px;
+            letter-spacing: -0.03em;
+            text-align: left;
+
+            margin-top: 87px;
+            margin-left: 786px;
+
+        }
+
+    }
+
+}
